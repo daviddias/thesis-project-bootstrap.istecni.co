@@ -1,0 +1,39 @@
+\documentclass{./llncs2e/llncs}
+\usepackage{graphicx}
+\usepackage{fixltx2e}
+\usepackage{mathtools}
+\usepackage[nolist,nohyperlinks]{acronym}
+
+% 
+% Change the margins
+% 
+% \usepackage[margin=2.9cm]{geometry}
+
+\begin{document}
+\title{Your Thesis title}
+
+\subtitle{Your Thesis subtitle}
+\author{your name, your email}
+\institute{your University}
+
+\maketitle
+
+\input{sections/1-abstract.tex}
+\input{sections/2-keywords.tex}
+\input{sections/3-introduction.tex}
+\input{sections/4-objectives.tex}
+\input{sections/5-related-work.tex}
+\input{sections/6-architecture.tex}
+\input{sections/7-evaluation.tex}
+\input{sections/8-conclusions.tex}
+
+
+% 
+% Bibliography
+% 
+\bibliographystyle{plain} 
+
+% replace example.bib with your .bib
+\bibliography{example.bib} 
+
+\end{document}
