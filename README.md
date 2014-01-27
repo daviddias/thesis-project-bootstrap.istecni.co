@@ -107,13 +107,18 @@ To execute it, just open your terminal and then
 $ sh toPDF.sh
 ```
 
-##### Set your .bib file
+##### Take notes on Mendley 
+
+`Soon...`
+
+##### Set up your .bib file to be updated automatically
 
 `Soon...`
 
 ##### Citations
 
-`Soon...`
+This is one of the key treats I like by having sublime, by typing `\cite{` sublime will pop up a search box for all the papers in your .bib file, so you don't need to find the reference to cite by your self, this has proven to be an incredible speed up in productivity.
+
 
 
 ##### Change margins
@@ -121,7 +126,6 @@ $ sh toPDF.sh
 Changing the margins can be a nice trick when you want to have more content you want to talk then the space you have available, you can change it by using package `geometry` with the margin option, see:
 
 https://github.com/diasdavid/thesis-project-bootstrap.istecni.co/blob/master/report.tex#L7-L10
-
 
 
 ##### Distraction Free Mode
@@ -134,11 +138,18 @@ ctrl+shift+cmd+f
 
 ##### Snippets
 
-`Soon...`
+By having `latexing` by your side, you have all sorts of powerful snippets! my favorites are for tables and images, to access them, just open `Sublime` Command Pallet (`cmd+shift+p`) and type `sn `, the rest defines the snipped, for example an image would be `sn figure`, that results in:
 
-##### Take notes on Mendley 
+```Latex
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.95\textwidth]{}
+  \caption{caption}
+  \label{fig:label}
+\end{figure}
+```
 
-`Soon...`
+Explore all the snippets possibilities and memorize the ones you use the most :)
 
 
 ## Notes/Others
