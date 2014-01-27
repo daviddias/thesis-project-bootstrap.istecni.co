@@ -86,8 +86,24 @@ Just click the `fork` button on the top right of this webpage and get started :)
 
 ##### How to Compile/Export to PDF
 
-There are several
+You would expect that compiling would be something linear, however, LaTeX has it is own peculiatiries, specially when you have a bibliography. The process goes
 
+```bash
+$ pdflatex report # compile once
+$ bibtex report   # compile the references
+$ pdflatex report # compile again to attach the compiled references
+$ pdflatex report # compile again just to make the ref numbers appear accordingly
+```
+
+I know this seems odd, I myself didn't believe this was the way in the beginning and tried to find a more 'natural' way, however, after reading a bunch of stuff on the web and getting feedback from other people, yep, this is how it is done.
+
+I've added to this repo a script to do this automatically `toPDF.sh`, this script also has a "cleaning" function, to remove all the temporary files from your folder created by `pdflatex` compile step, so it you don't get your folder "full of things" :)
+
+To execute it, just open your terminal and then
+
+```bash
+$ sh toPDF.sh
+```
 
 
 ##### Set your .bib file
