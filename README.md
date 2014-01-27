@@ -73,9 +73,9 @@ I've tried a ton of text editors for LaTeX, from [TexShop](http://pages.uoregon.
 What I was looking in the text editor was for a good theming scheme, simply layout, powerful auto complete and well defined snippets for me. All of this was achieved by installing [latexing](http://www.latexing.com/) for Sublime. You can install it using the Sublime Package Manager
 
 ```
-press cmd+shift+p on a mac or ctrl+shift+p on windows/linux
-type install package and click enter
-type latexing and select that package
+1. press cmd+shift+p on a mac or ctrl+shift+p on windows/linux
+2. type install package and click enter
+3. type latexing and select that package
 ```
 
 Check all the Latexing [features here](http://www.latexing.com/features.html)
@@ -109,9 +109,19 @@ $ sh toPDF.sh
 
 ##### Set your .bib file
 
+
+
+
 ##### Citations
 
+In order 
+
+
 ##### Change margins
+
+Changing the margins can be a nice trick when you want to have more content you want to talk then the space you have available, you can change it by using package `geometry` with the margin option, see:
+
+https://github.com/diasdavid/thesis-project-bootstrap.istecni.co/blob/master/report.tex#L7-L10
 
 
 
@@ -123,8 +133,9 @@ The web is full of distractions, writting long chunks of text can be boring some
 ctrl+shift+cmd+f
 ```
 
-
 ##### Snippets
+
+
 
 ##### Take notes on Mendley 
 
@@ -136,8 +147,8 @@ ctrl+shift+cmd+f
 
 As this [answer](http://tex.stackexchange.com/a/250) eloquently put's it out:
 
-\input{filename} imports the commands from filename into the target file; it's equivalent to typing all the commands from filename right into the current file where the \input line is.
+`\input{filename}` imports the commands from filename into the target file; it's equivalent to typing all the commands from filename right into the current file where the `\input` line is.
 
-\include{filename} essentially does a \clearpage before and after \input{filename}, together with some magic to switch to another .aux file, and omit the inclusion at all if you have an \includeonly without the filename in the argument. This is primarily useful when you have a big project on a slow computer; changing one of the include targets won't force you to regenerate the outputs of all the rest
+`\include{filename}` essentially does a `\clearpage` before and after `\input{filename}`, together with some magic to switch to another .aux file, and omit the inclusion at all if you have an `\includeonly` without the filename in the argument. This is primarily useful when you have a big project on a slow computer; changing one of the include targets won't force you to regenerate the outputs of all the rest
 
-\include gets you the speed bonus, but it also can't be nested, can't appear in the preamble, and forces page breaks around the included text.
+`\include` gets you the speed bonus, but it also can't be nested, can't appear in the preamble, and forces page breaks around the included text.
