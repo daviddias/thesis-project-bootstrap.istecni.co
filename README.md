@@ -109,12 +109,11 @@ $ sh toPDF.sh
 
 ##### Set your .bib file
 
-
-
+`Soon...`
 
 ##### Citations
 
-In order 
+`Soon...`
 
 
 ##### Change margins
@@ -135,10 +134,11 @@ ctrl+shift+cmd+f
 
 ##### Snippets
 
-
+`Soon...`
 
 ##### Take notes on Mendley 
 
+`Soon...`
 
 
 ## Notes/Others
