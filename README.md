@@ -3,7 +3,7 @@ thesis-project-bootstrap.istecni.co
 
 A LaTeX project template for your awesome Thesis Project (using Springer theme, requested  by IST).
 
-I've been known as a `productivity freak` for some years know and when I started writting my thesis, it really annoyed me how the tools seemed old and brokwn, the process was old, there was no better practices around and all the documentation I found on the web wasn't cohesive. 
+I've been known as a "productivity freak" for some years know and when I started writting my thesis, it really annoyed me how the tools seemed old and brokwn, the process was old, there was no better practices around and all the documentation I found on the web wasn't cohesive. 
 
 So, hoping that I could save someone else's time, I've been compiling this `bootstrap template`, sharing what worked as best for me. This template is dedicated to the first part of the thesis (project), I hope to have something for the full thesis when I do it :)
 
@@ -71,6 +71,10 @@ Now that the public pitch is off, the truth is that you will be there, having to
 
 ## Tips
 
+##### How to start
+
+Just click the `fork` button on the top right of this webpage and get started :) (you can always download as zip if you prefer).
+
 ##### How to Compile
 
 ##### Set your .bib file
@@ -86,3 +90,4 @@ Now that the public pitch is off, the truth is that you will be there, having to
 ##### Snippets
 
 ##### Take notes on Mendley 
+
