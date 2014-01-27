@@ -42,7 +42,7 @@ Some of this best practices came from discussions I had with my friend [Bernardo
 │   └── sprmindx.sty
 ├── report.pdf          # The exported report as .pdf
 ├── report.tex          # The main file of the report
-├── sections            # You can find each individual section here
+├── sections            # You can find each individual section here (these are the requested)
 │   ├── 1-abstract.tex
 │   ├── 2-keywords.tex
 │   ├── 3-introduction.tex
@@ -58,10 +58,15 @@ Some of this best practices came from discussions I had with my friend [Bernardo
 
 #### Mendeley 
 
+![mendeley](http://d3fildg3jlcvty.cloudfront.net/20140120-01/graphics/commonnew/logo-mendeley.png)
+
+"Mendeley is a free reference manager and academic social network that can help you organize your research, collaborate with others online, and discover the latest research."
+
+Now that the public pitch is off, the truth is that you will be there, having to manage dozens of papers, notes, references, and you definitly don't want to do it on paper, after reading 40 papers, how the hell are you going to find quickly that one reference you are looking for. Then you start thinking, lets "be smart" and start taking notes in word, or an excell spreadsheet (I've seen all of these cases), but then you realize searching in this type of documents is hard and in the end, you still have to compile your bibliography by hand (because of the .bib format needed by LaTeX). Fear not, Mendeley is here to save you from all that pain, in the Tips section we will specify some key things you can do with Mendeley, for now, just [install](http://www.mendeley.com/) it and watch this [video](http://vimeo.com/26866765) 
 
 #### Sublime
 
-Package LaTeX + Snippets
+
 
 
 ### Tips
@@ -75,3 +80,9 @@ Package LaTeX + Snippets
 #### Change margins
 
 #### Difference between
+
+#### Distraction Free Mode
+
+#### Snippets
+
+#### Take notes on Mendley 
