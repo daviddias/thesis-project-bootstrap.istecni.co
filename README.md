@@ -126,7 +126,9 @@ ctrl+shift+cmd+f
 
 ##### Take notes on Mendley 
 
-## Notes
+
+
+## Notes/Others
 
 ##### Difference between `\input` and `\include`
 
