@@ -66,6 +66,8 @@ Now that the public pitch is off, the truth is that you will be there, having to
 
 ##### Sublime
 
+![sublime](http://upload.wikimedia.org/wikipedia/en/4/4c/Sublime_Text_Logo.png)
+
 I've tried a ton of text editors for LaTeX, from [TexShop](http://pages.uoregon.edu/koch/texshop/), [Latexian](http://tacosw.com/latexian/) to [Scribo](https://www.macupdate.com/app/mac/30939/scribo), but in the end, what has proven to be the most reliable, clean and fastest is my old beloved [Sublime Text](http://www.sublimetext.com/), which I used for all my coding.
 
 What I was looking in the text editor was for a good theming scheme, simply layout, powerful auto complete and well defined snippets for me. All of this was achieved by installing [latexing](http://www.latexing.com/) for Sublime. You can install it using the Sublime Package Manager
