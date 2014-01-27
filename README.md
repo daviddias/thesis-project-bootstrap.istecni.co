@@ -105,18 +105,35 @@ To execute it, just open your terminal and then
 $ sh toPDF.sh
 ```
 
-
 ##### Set your .bib file
 
 ##### Citations
 
 ##### Change margins
 
-##### Difference between
+
 
 ##### Distraction Free Mode
+
+The web is full of distractions, writting long chunks of text can be boring sometimes, you need something to keep your focus on and don't get distracted, that is when the Distraction Free Mode of Sublime kicks in, to activate it, just press:
+
+```
+ctrl+shift+cmd+f
+```
+
 
 ##### Snippets
 
 ##### Take notes on Mendley 
 
+## Notes
+
+##### Difference between `\input` and `\include`
+
+As this [answer](http://tex.stackexchange.com/a/250) eloquently put's it out:
+
+\input{filename} imports the commands from filename into the target file; it's equivalent to typing all the commands from filename right into the current file where the \input line is.
+
+\include{filename} essentially does a \clearpage before and after \input{filename}, together with some magic to switch to another .aux file, and omit the inclusion at all if you have an \includeonly without the filename in the argument. This is primarily useful when you have a big project on a slow computer; changing one of the include targets won't force you to regenerate the outputs of all the rest
+
+\include gets you the speed bonus, but it also can't be nested, can't appear in the preamble, and forces page breaks around the included text.
