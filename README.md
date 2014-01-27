@@ -9,14 +9,14 @@ So, hoping that I could save someone else's time, I've been compiling this `boot
 
 Please if you have something to add, or a thing you like to share, open a issue or a pull request :)
 
-### Acknowlegments 
+## Acknowlegments 
 
 Some of this best practices came from discussions I had with my friend [Bernardo Simões](https://github.com/golfadas), which is doing his Thesis at the same time as me, he shares the same desire of getting the clutter out of the way to maximize the focus on the content.
 
 **News:** I just heard that he applied for a LaTeX talk at Codebits, you should go and upvote him -> https://codebits.eu/intra/s/proposal/472
 
 
-### Folder structure
+## Folder structure
 
 ```bash
 .
@@ -54,9 +54,9 @@ Some of this best practices came from discussions I had with my friend [Bernardo
 └── toPDF.sh            # Compiling and exporting your report to pdf, use $ sh toPDF.sh to run it 
 ```
 
-### Tools
+## Tools
 
-#### Mendeley 
+##### Mendeley 
 
 ![mendeley](http://d3fildg3jlcvty.cloudfront.net/20140120-01/graphics/commonnew/logo-mendeley.png)
 
@@ -64,25 +64,25 @@ Some of this best practices came from discussions I had with my friend [Bernardo
 
 Now that the public pitch is off, the truth is that you will be there, having to manage dozens of papers, notes, references, and you definitly don't want to do it on paper, after reading 40 papers, how the hell are you going to find quickly that one reference you are looking for. Then you start thinking, lets "be smart" and start taking notes in word, or an excell spreadsheet (I've seen all of these cases), but then you realize searching in this type of documents is hard and in the end, you still have to compile your bibliography by hand (because of the .bib format needed by LaTeX). Fear not, Mendeley is here to save you from all that pain, in the Tips section we will specify some key things you can do with Mendeley, for now, just [install](http://www.mendeley.com/) it and watch this [video](http://vimeo.com/26866765) 
 
-#### Sublime
+##### Sublime
 
 
 
 
-### Tips
+## Tips
 
-#### How to Compile
+##### How to Compile
 
-#### Set your .bib file
+##### Set your .bib file
 
-#### Citations
+##### Citations
 
-#### Change margins
+##### Change margins
 
-#### Difference between
+##### Difference between
 
-#### Distraction Free Mode
+##### Distraction Free Mode
 
-#### Snippets
+##### Snippets
 
-#### Take notes on Mendley 
+##### Take notes on Mendley 
