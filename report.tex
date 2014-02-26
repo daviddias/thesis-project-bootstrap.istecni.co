@@ -3,6 +3,8 @@
 \usepackage{fixltx2e}
 \usepackage{mathtools}
 \usepackage[nolist,nohyperlinks]{acronym}
+% Maintain images and tables within their respective sections
+\usepackage[section]{placeins}
 
 % 
 % Change the margins
@@ -26,6 +28,10 @@
 \input{sections/6-architecture.tex}
 \input{sections/7-evaluation.tex}
 \input{sections/8-conclusions.tex}
+\newpage
+\appendix
+\input{sections/9-appendix.tex}
+
 
 
 % 
