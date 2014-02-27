@@ -105,7 +105,7 @@ $ sh toPDF.sh
 ##### Citations
 
 This is one of the key treats I like by having sublime, by typing `\cite{` sublime search in your .bib files: 
-![cite gif](https://dl-web.dropbox.com/get/GIFS/cite.gif?_subject_uid=3217572&w=AACxyJbrMzyCQ7IqlIh9T-EgJGIZp4VbpRS7o_jNDiHgog)
+![cite gif](https://www.dropbox.com/s/zm2wx7va0oxvho8/cite.gif)
 
 
 ##### Change margins
