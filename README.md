@@ -128,6 +128,7 @@ By having `latexing` by your side, you have all sorts of powerful snippets! my f
 ![snippet](https://imageshack.com/a/img69/9782/yq3.gif)
 
 When you know the snippet text trigger, just write it and press tab. So writing `item` and then pressing `tab` will result in:
+
 ![snippet2](https://imageshack.com/a/img513/9320/ie6.gif)
 
 ## Notes/Others
