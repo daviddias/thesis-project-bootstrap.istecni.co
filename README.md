@@ -127,7 +127,7 @@ ctrl+shift+cmd+f
 
 By having `latexing` by your side, you have all sorts of powerful snippets! my favorites are for tables and images, to access them, just open `Sublime` Command Pallet (`cmd+shift+p`) and type `sn `, the rest defines the snipped, like so:
 
-![snippet](https://dl-web.dropbox.com/get/GIFS/write_shit.gif?_subject_uid=3217572&w=AACYQ8PmBgYJsGhVjoBBeQXKlhfkVcRBbnvkOe3Qtw5_Tg)
+![snippet](https://imageshack.com/a/img69/9782/yq3.gif)
 
 When you know the snippet text trigger, just write it and press tab. So writing `item` and then pressing `tab` will result in:
 ![snippet2](https://www.dropbox.com/lightbox/home/GIFS?select=cite.gif)
