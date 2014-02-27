@@ -130,7 +130,7 @@ By having `latexing` by your side, you have all sorts of powerful snippets! my f
 ![snippet](https://dl-web.dropbox.com/get/GIFS/write_shit.gif?_subject_uid=3217572&w=AACYQ8PmBgYJsGhVjoBBeQXKlhfkVcRBbnvkOe3Qtw5_Tg)
 
 When you know the snippet text trigger, just write it and press tab. So writing `item` and then pressing `tab` will result in:
-![snippet2](https://dl-web.dropbox.com/get/GIFS/snippets2.gif?_subject_uid=3217572&w=AAA84-KBunfJwiqXCUyN5WGcEMJf9JUhpOWXBGaxQXtUaA)
+![snippet2](https://www.dropbox.com/lightbox/home/GIFS?select=cite.gif)
 
 ## Notes/Others
 
