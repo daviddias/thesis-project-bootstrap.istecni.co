@@ -58,13 +58,11 @@ Some of this best practices came from discussions I had with my friend [Bernardo
 
 ![mendeley](http://d3fildg3jlcvty.cloudfront.net/20140120-01/graphics/commonnew/logo-mendeley.png)
 
-[video](http://vimeo.com/26866765) 
-
 Since you will have to manage dozens of papers, notes and references. You definitely don't want to do it on paper, after reading 40 papers, how the hell are you going to find quickly that one reference you are looking for. Then you start thinking, lets "be smart" and start taking notes in word, or an excell spreadsheet (I've seen all of these cases), but then you realize searching in this type of documents is hard and in the end, you still have to compile your bibliography by hand (because of the .bib format needed by LaTeX). Fear not, Mendeley is here to save you from all that pain, in the Tips section we will specify some key things you can do with Mendeley, for now, just [install](http://www.mendeley.com/) it and watch this to [sync mendely citations with latex](http://blog.mendeley.com/tipstricks/howto-use-mendeley-to-create-citations-using-latex-and-bibtex/).
 
 ##### Text Editors
 
-There are a lot of LaTeX editors, from [TexShop](http://pages.uoregon.edu/koch/texshop/), [Latexian](http://tacosw.com/latexian/) to [Scribo](https://www.macupdate.com/app/mac/30939/scribo). We took preference on the editor that we use to code, for its simplicity and extensibility [Sublime Text](http://www.sublimetext.com/).
+There are a lot of LaTeX editors, from [TexShop](http://pages.uoregon.edu/koch/texshop/), [Latexian](http://tacosw.com/latexian/) to [Scribo](https://www.macupdate.com/app/mac/30939/scribo). We took preference on the editor that we use for programming, for its simplicity and extensibility [Sublime Text](http://www.sublimetext.com/).
 
 ##### Sublime Plug-ins
 ![sublime](http://upload.wikimedia.org/wikipedia/en/4/4c/Sublime_Text_Logo.png)
@@ -73,7 +71,7 @@ What I was looking in the text editor was for a good theming scheme, simply layo
 
 Another cool plug-in to use is [Google Translate](https://github.com/golfadas/SublimeText-Google-Translate-Plugin). It is not available on the ST package manager, but check the github page for install instructions.
 Here is how it works:
-![sublime](https://dl-web.dropbox.com/get/GIFS/google_plugin.gif?_subject_uid=3217572&w=AABmNUrpL9j8l7oRlKNOUseQ17USxU9Z2HLCzq5Ufm2I7Q)
+![sublime](https://imageshack.com/a/img827/4828/9m43.gif)
 
 ## Tips
 
@@ -105,7 +103,7 @@ $ sh toPDF.sh
 ##### Citations
 
 This is one of the key treats I like by having sublime, by typing `\cite{` sublime search in your .bib files: 
-![cite gif](https://www.dropbox.com/s/zm2wx7va0oxvho8/cite.gif)
+![cite gif](https://imageshack.com/a/img703/6486/3rtk.gif)
 
 
 ##### Change margins
@@ -130,7 +128,7 @@ By having `latexing` by your side, you have all sorts of powerful snippets! my f
 ![snippet](https://imageshack.com/a/img69/9782/yq3.gif)
 
 When you know the snippet text trigger, just write it and press tab. So writing `item` and then pressing `tab` will result in:
-![snippet2](https://www.dropbox.com/lightbox/home/GIFS?select=cite.gif)
+![snippet2](https://imageshack.com/a/img513/9320/ie6.gif)
 
 ## Notes/Others
 
