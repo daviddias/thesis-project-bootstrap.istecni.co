@@ -3,7 +3,7 @@ thesis-project-bootstrap.istecni.co
 
 A LaTeX project template for your awesome Thesis Project (using Springer theme, requested  by IST).
 
-I've been known as a "productivity freak" for some years know and when I started writting my thesis, it really annoyed me how the tools seemed old and brokwn, the process was old, there was no better practices around and all the documentation I found on the web wasn't cohesive. 
+I've been known as a "productivity freak" for some years know and when I started writing my thesis, it really annoyed me how the tools seemed old and broken, the process was old, there was no better practices around and all the documentation I found on the web wasn't cohesive. 
 
 So, hoping that I could save someone else's time, I've been compiling this `bootstrap template`, sharing what worked as best for me. This template is dedicated to the first part of the thesis (project), I hope to have something for the full thesis when I do it :)
 
@@ -11,10 +11,7 @@ Please if you have something to add, or a thing you like to share, open a issue 
 
 ## Acknowlegments 
 
-Some of this best practices came from discussions I had with my friend [Bernardo Simões](https://github.com/golfadas), which is doing his Thesis at the same time as me, he shares the same desire of getting the clutter out of the way to maximize the focus on the content.
-
-**News:** I just heard that he applied for a LaTeX talk at Codebits, you should go and upvote him -> https://codebits.eu/intra/s/proposal/472
-
+Some of this best practices came from discussions I had with my friend [Bernardo Simões](https://github.com/golfadas), which is doing his Thesis at the same time as me, he shares the same desire of getting the clutter out of the way to maximize the focus on the content, and he likes GIFS.
 
 ## Folder structure
 
@@ -50,7 +47,8 @@ Some of this best practices came from discussions I had with my friend [Bernardo
 │   ├── 5-related-work.tex
 │   ├── 6-architecture.tex
 │   ├── 7-evaluation.tex
-│   └── 8-conclusions.tex
+│   ├── 8-conclusions.tex
+│   └── 9-appendix.tex
 └── toPDF.sh            # Compiling and exporting your report to pdf, use $ sh toPDF.sh to run it 
 ```
 
@@ -60,29 +58,26 @@ Some of this best practices came from discussions I had with my friend [Bernardo
 
 ![mendeley](http://d3fildg3jlcvty.cloudfront.net/20140120-01/graphics/commonnew/logo-mendeley.png)
 
-"Mendeley is a free reference manager and academic social network that can help you organize your research, collaborate with others online, and discover the latest research."
+[video](http://vimeo.com/26866765) 
 
-Now that the public pitch is off, the truth is that you will be there, having to manage dozens of papers, notes, references, and you definitly don't want to do it on paper, after reading 40 papers, how the hell are you going to find quickly that one reference you are looking for. Then you start thinking, lets "be smart" and start taking notes in word, or an excell spreadsheet (I've seen all of these cases), but then you realize searching in this type of documents is hard and in the end, you still have to compile your bibliography by hand (because of the .bib format needed by LaTeX). Fear not, Mendeley is here to save you from all that pain, in the Tips section we will specify some key things you can do with Mendeley, for now, just [install](http://www.mendeley.com/) it and watch this [video](http://vimeo.com/26866765) 
+Since you will have to manage dozens of papers, notes and references. You definitely don't want to do it on paper, after reading 40 papers, how the hell are you going to find quickly that one reference you are looking for. Then you start thinking, lets "be smart" and start taking notes in word, or an excell spreadsheet (I've seen all of these cases), but then you realize searching in this type of documents is hard and in the end, you still have to compile your bibliography by hand (because of the .bib format needed by LaTeX). Fear not, Mendeley is here to save you from all that pain, in the Tips section we will specify some key things you can do with Mendeley, for now, just [install](http://www.mendeley.com/) it and watch this to [sync mendely citations with latex](http://blog.mendeley.com/tipstricks/howto-use-mendeley-to-create-citations-using-latex-and-bibtex/).
 
-##### Sublime
+##### Text Editors
 
+There are a lot of LaTeX editors, from [TexShop](http://pages.uoregon.edu/koch/texshop/), [Latexian](http://tacosw.com/latexian/) to [Scribo](https://www.macupdate.com/app/mac/30939/scribo). We took preference on the editor that we use to code, for its simplicity and extensibility [Sublime Text](http://www.sublimetext.com/).
+
+##### Sublime Plug-ins
 ![sublime](http://upload.wikimedia.org/wikipedia/en/4/4c/Sublime_Text_Logo.png)
 
-I've tried a ton of text editors for LaTeX, from [TexShop](http://pages.uoregon.edu/koch/texshop/), [Latexian](http://tacosw.com/latexian/) to [Scribo](https://www.macupdate.com/app/mac/30939/scribo), but in the end, what has proven to be the most reliable, clean and fastest is my old beloved [Sublime Text](http://www.sublimetext.com/), which I used for all my coding.
+What I was looking in the text editor was for a good theming scheme, simply layout, powerful auto complete and well defined snippets for me. All of this was achieved by installing [latexing](http://www.latexing.com/) for Sublime.
 
-What I was looking in the text editor was for a good theming scheme, simply layout, powerful auto complete and well defined snippets for me. All of this was achieved by installing [latexing](http://www.latexing.com/) for Sublime. You can install it using the Sublime Package Manager
-
-```
-1. press cmd+shift+p on a mac or ctrl+shift+p on windows/linux
-2. type install package and click enter
-3. type latexing and select that package
-```
-
-Check all the Latexing [features here](http://www.latexing.com/features.html)
+Another cool plug-in to use is [Google Translate](https://github.com/golfadas/SublimeText-Google-Translate-Plugin). It is not available on the ST package manager, but check the github page for install instructions.
+Here is how it works:
+![sublime](https://dl-web.dropbox.com/get/GIFS/google_plugin.gif?_subject_uid=3217572&w=AABmNUrpL9j8l7oRlKNOUseQ17USxU9Z2HLCzq5Ufm2I7Q)
 
 ## Tips
 
-##### How to start
+##### Start using
 
 Just click the `fork` button on the top right of this webpage and get started :) (you can always download as zip if you prefer).
 
@@ -107,18 +102,10 @@ To execute it, just open your terminal and then
 $ sh toPDF.sh
 ```
 
-##### Take notes on Mendley 
-
-`Soon...`
-
-##### Set up your .bib file to be updated automatically
-
-`Soon...`
-
 ##### Citations
 
-This is one of the key treats I like by having sublime, by typing `\cite{` sublime will pop up a search box for all the papers in your .bib file, so you don't need to find the reference to cite by your self, this has proven to be an incredible speed up in productivity.
-
+This is one of the key treats I like by having sublime, by typing `\cite{` sublime search in your .bib files: 
+![cite gif](https://dl-web.dropbox.com/get/GIFS/cite.gif?_subject_uid=3217572&w=AACxyJbrMzyCQ7IqlIh9T-EgJGIZp4VbpRS7o_jNDiHgog)
 
 
 ##### Change margins
@@ -130,7 +117,7 @@ https://github.com/diasdavid/thesis-project-bootstrap.istecni.co/blob/master/rep
 
 ##### Distraction Free Mode
 
-The web is full of distractions, writting long chunks of text can be boring sometimes, you need something to keep your focus on and don't get distracted, that is when the Distraction Free Mode of Sublime kicks in, to activate it, just press:
+The web is full of distractions, writing long chunks of text can be boring sometimes, you need something to keep your focus on and don't get distracted, that is when the Distraction Free Mode of Sublime kicks in, to activate it, just press:
 
 ```
 ctrl+shift+cmd+f
@@ -138,19 +125,12 @@ ctrl+shift+cmd+f
 
 ##### Snippets
 
-By having `latexing` by your side, you have all sorts of powerful snippets! my favorites are for tables and images, to access them, just open `Sublime` Command Pallet (`cmd+shift+p`) and type `sn `, the rest defines the snipped, for example an image would be `sn figure`, that results in:
+By having `latexing` by your side, you have all sorts of powerful snippets! my favorites are for tables and images, to access them, just open `Sublime` Command Pallet (`cmd+shift+p`) and type `sn `, the rest defines the snipped, like so:
 
-```Latex
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=0.95\textwidth]{}
-  \caption{caption}
-  \label{fig:label}
-\end{figure}
-```
+![snippet](https://dl-web.dropbox.com/get/GIFS/write_shit.gif?_subject_uid=3217572&w=AACYQ8PmBgYJsGhVjoBBeQXKlhfkVcRBbnvkOe3Qtw5_Tg)
 
-Explore all the snippets possibilities and memorize the ones you use the most :)
-
+When you know the snippet text trigger, just write it and press tab. So writing `item` and then pressing `tab` will result in:
+![snippet2](https://dl-web.dropbox.com/get/GIFS/snippets2.gif?_subject_uid=3217572&w=AAA84-KBunfJwiqXCUyN5WGcEMJf9JUhpOWXBGaxQXtUaA)
 
 ## Notes/Others
 
