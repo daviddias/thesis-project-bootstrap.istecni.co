@@ -13,6 +13,8 @@ Please if you have something to add, or a thing you like to share, open a issue 
 
 Some of this best practices came from discussions I had with my friend [Bernardo Simões](https://github.com/golfadas), which is doing his Thesis at the same time as me, he shares the same desire of getting the clutter out of the way to maximize the focus on the content, and he likes GIFS.
 
+[![](https://cldup.com/pgZbzoshyV-3000x3000.png)](http://www.gsd.inesc-id.pt/)
+
 ## Folder structure
 
 ```bash
