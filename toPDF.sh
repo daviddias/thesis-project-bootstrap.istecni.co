@@ -1,13 +1,5 @@
-pdflatex report
-bibtex report
-pdflatex report
-pdflatex report
-rm *.aux
-rm *.bbl
-rm *.blg
-rm *.lof
-rm *.log
-rm *.lot
-rm *.nlo
-rm *.out
-rm *.toc
+NAME=report
+pdflatex $NAME
+bibtex $NAME
+pdflatex $NAME
+pdflatex $NAME
